@@ -43,6 +43,7 @@
 #adbuttongroup {
     width: auto;
     height: 80px;
+    display: flex;
     text-align: center;
 }
 #adbuttonitchio {
