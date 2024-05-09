@@ -1,22 +1,36 @@
 #thelobang {
-    background-image: url("resources/thalobang-banner.png") no-repeat;
-    width: 100%;
-    height: 200px;
+    position: relative;
+    background-image: url("resources/thalobang-banner.png");
+    width: auto;
+    height: auto;
     background-size: 100% auto;
     background-position: center;
 }
 #thelobangicon {
-    background-image: url("resources/void-icon.png") no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("resources/void-icon.png");
+    background-repeat: no-repeat;
     width: 50%;
+    height: auto;
 }
 #void {
-    background-image: url("resources/void-banner.png") no-repeat;
-    width: 100%;
-    height: 200px;
+    position: relative;
+    background-image: url("resources/void-banner.png");
+    width: auto;
+    height: auto;
     background-size: 100% auto;
     background-position: center;
 }
 #voidicon {
-    background-image: url("resources/void-icon.png") no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("resources/void-icon.png");
+    background-repeat: no-repeat;
     width: 50%;
+    height: auto;
 }
