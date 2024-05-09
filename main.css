@@ -1,10 +1,10 @@
 /* ------------------------------------------------------------------------
 -  Main background colors
 -------------------------------------------------------------------------*/
-.color-1 {background-color: #1A1C2C;} /* Title background */
-.color-2 {background-color: #5D275D;} /* Description background */
-.color-3 {background-color: #B13E53;} /* Main menu background */
-.color-5 {background-color: #EF5D57;} /* other blocks (right side) */
+.color-1 {background-color: #ea316e;} /* Title background */
+.color-2 {background-color: #25aae1;} /* Description background */
+.color-3 {background-color: #25aae1;} /* Main menu background */
+.color-5 {background-color: #b1e3fa;} /* other blocks (right side) */
 
 /* ------------------------------------------------------------------------
 -  The basics

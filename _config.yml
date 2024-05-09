@@ -1,5 +1,5 @@
 name: Website Veskfall
-description: "Official Website Veskfall Games LLC"
+description: "Official Website Veskfall Games LLC."
 markdown: kramdown
 paginate: 5
 permalink: /:title
