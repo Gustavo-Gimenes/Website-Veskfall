@@ -1,36 +1,47 @@
-#thelobang {
-    position: relative;
+#thelobangbanner {
     background-image: url("resources/thalobang-banner.png");
     width: 100%;
-    height: auto;
+    height: 200px auto;
     background-size: 100% auto;
     background-position: center;
+    position: relative;
 }
 #thelobangicon {
+    background-image: url("resources/void-icon.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("resources/void-icon.png");
-    background-repeat: no-repeat;
-    width: 50%;
-    height: auto;
 }
-#void {
-    position: relative;
+#voidbanner {
     background-image: url("resources/void-banner.jpg");
     width: 100%;
-    height: auto;
+    height: 200px auto;
     background-size: 100% auto;
     background-position: center;
+    position: relative;
 }
 #voidicon {
+    background-image: url("resources/void-icon.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("resources/void-icon.png");
-    background-repeat: no-repeat;
-    width: 50%;
-    height: auto;
+}
+#adbuttongroup {
+}
+#adbuttonitchio {
+    background-image: url("resources/ad-button-itchio.svg");
+}
+#adbuttonsteam {
+    background-image: url("resources/ad-button-steam.png");
+}
+#adbuttonplaystore {
+    background-image: url("resources/ad-button-playstore.png");
 }

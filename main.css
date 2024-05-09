@@ -34,7 +34,7 @@ a { text-decoration: none; transition: color 0.25s ease-in, background 0.25s eas
 {
 	background-color: #b1e3fa;
 	padding: 2px 0 1px;
-	height: 20px;
+	height: 19px;
 	border-top: 1px dashed #77A;
 	color: #444;
 	font-size: 8pt;
@@ -64,7 +64,7 @@ a { text-decoration: none; transition: color 0.25s ease-in, background 0.25s eas
 	color: #f5f5f5;
 }
 .title a { color: #f5f5f5; }
-.title a:hover, .main-header a:focus { color: #c1c1ff; text-decoration: underline; }
+.title a:hover, .main-header a:focus { color: #f5f5f5; text-decoration: underline; }
 
 .links a
 {
