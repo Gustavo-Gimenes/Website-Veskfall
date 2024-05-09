@@ -1,7 +1,7 @@
 #thelobang {
     position: relative;
     background-image: url("resources/thalobang-banner.png");
-    width: auto;
+    width: 100%;
     height: auto;
     background-size: 100% auto;
     background-position: center;
@@ -19,7 +19,7 @@
 #void {
     position: relative;
     background-image: url("resources/void-banner.jpg");
-    width: auto;
+    width: 100%;
     height: auto;
     background-size: 100% auto;
     background-position: center;
