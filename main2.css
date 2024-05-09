@@ -1,22 +1,22 @@
 #thelobang {
-    background-image: url("resources/thalobang-banner.png");
+    background-image: url("resources/thalobang-banner.png") no-repeat;
     width: 100%;
-    height: 200px;
+    height: 100%;
     background-size: 100% auto;
     background-position: center;
 }
 #thelobangicon {
-    background-image: url("resources/void-icon.png");
-    width: 100px;
+    background-image: url("resources/void-icon.png") no-repeat;
+    width: 50%;
 }
 #void {
-    background-image: url("resources/void-banner.png");
+    background-image: url("resources/void-banner.png") no-repeat;
     width: 100%;
-    height: 200px;
+    height: 100%;
     background-size: 100% auto;
     background-position: center;
 }
 #voidicon {
-    background-image: url("resources/void-icon.png");
-    width: 100px;
+    background-image: url("resources/void-icon.png") no-repeat;
+    width: 50%;
 }
