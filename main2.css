@@ -2,7 +2,7 @@
     background-image: url("resources/thelobang-banner.png");
     background-repeat: no-repeat;
     width: auto;
-    height: 400px;
+    height: 360px;
     background-size: 100% auto;
     background-position: center;
     position: relative;
@@ -23,7 +23,7 @@
     background-image: url("resources/void-banner.jpg");
     background-repeat: no-repeat;
     width: auto;
-    height: 400px;
+    height: 360px;
     background-size: 100% auto;
     background-position: center;
     position: relative;
@@ -40,12 +40,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#adbuttongroup {
-    width: auto;
-    height: 80px;
-    display: flex;
-    text-align: center;
-}
+#adbuttongroup { width: auto; height: 80px; display: flex; text-align: center; }
 #adbuttonitchio {
     background-image: url("resources/ad-button-itchio.svg");
     background-repeat: no-repeat;
@@ -71,6 +66,6 @@
     background-position: center;
 }
 @media (max-width: 850px) {
-	#thelobangbanner { height: 170px; }
-	#voidbanner { height: 170px; }
+	#thelobangbanner { height: 180px; }
+	#voidbanner { height: 180px; }
 }
