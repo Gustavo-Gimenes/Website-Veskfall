@@ -2,7 +2,7 @@
     background-image: url("resources/thelobang-banner.png");
     background-repeat: no-repeat;
     width: auto;
-    height: 150px;
+    height: 400px;
     background-size: 100% auto;
     background-position: center;
     position: relative;
@@ -23,7 +23,7 @@
     background-image: url("resources/void-banner.jpg");
     background-repeat: no-repeat;
     width: auto;
-    height: 150px;
+    height: 400px;
     background-size: 100% auto;
     background-position: center;
     position: relative;
@@ -69,4 +69,8 @@
     height: 80px;
     background-size: 100% auto;
     background-position: center;
+}
+@media (max-width: 850px) {
+	#thelobangbanner { height: 170px; }
+	#voidbanner { height: 170px; }
 }
