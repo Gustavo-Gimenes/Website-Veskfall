@@ -1,17 +1,17 @@
 /* ------------------------------------------------------------------------
 -  Main background colors
 -------------------------------------------------------------------------*/
-.color-1 {background-color: #15cee191;} /* Title background */
-.color-2 {background-color: #da555e;} /* Description background */
-.color-3 {background-color: #da555e;} /* Main menu background */
-.color-5 {background-color: #4e1c05;} /* other blocks (right side) */
+.color-1 {background-color: #316eea;} /* Title background */
+.color-2 {background-color: #25aae1;} /* Description background */
+.color-3 {background-color: #25aae1;} /* Main menu background */
+.color-5 {background-color: #b1e3fa;} /* other blocks (right side) */
 
 /* ------------------------------------------------------------------------
 -  The basics
 -------------------------------------------------------------------------*/
 html, body
 {
-	background-color: #1f0b03;
+	background-color: #e0f4fc;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	margin: 0;
@@ -32,17 +32,17 @@ a { text-decoration: none; transition: color 0.25s ease-in, background 0.25s eas
 
 #footer
 {
-	background-color: #4e1c05;
+	background-color: #b1e3fa;
 	padding: 2px 0 1px;
 	height: 17px;
 	border-top: 1px dashed #77A;
-	color: #FFF;
+	color: #444;
 	font-size: 9pt;
 	text-align: center;
 	overflow-y: auto;
 }
-#footer a { color: #FFF; }
-#footer a:hover, #footera:active { color: #15cee1; }
+#footer a { color: #77A; }
+#footer a:hover, #footera:active { color: #316eea; }
 
 .module
 {
@@ -61,21 +61,21 @@ a { text-decoration: none; transition: color 0.25s ease-in, background 0.25s eas
 {
 	text-align: center;
 	margin: 0.8em;
-	color: #0a0a0a;
+	color: #f5f5f5;
 }
-.title a { color: #0a0a0a; }
-.title a:hover, .main-header a:focus { color: #e6e6e6; text-decoration: underline; }
+.title a { color: #f5f5f5; }
+.title a:hover, .main-header a:focus { color: #c1c1ff; text-decoration: underline; }
 
 .links a
 {
 	display: block;
-	color: #222;
+	color: #ddf;
 	text-align: center;
 	line-height: 1.8em;
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.links a:hover, .links a:active { color: #FFF !important; text-decoration: underline; }
+.links a:hover, .links a:active { color: #fff !important; text-decoration: underline; }
 
 /* ------------------------------------------------------------------------
 -  The content
@@ -85,11 +85,11 @@ a { text-decoration: none; transition: color 0.25s ease-in, background 0.25s eas
 	padding: 0 1.5em 1.5em;
 	margin-bottom: 20px;
 }
-.main-content a { color: #a9a9a9; border-bottom: .1px solid #a9a9a9; display: inline; padding: 0 0 .02em 0; }
-.main-content a:hover, .main-content p a:active { color: #f5f5f5 !important; background: #15cee191; border: 0; }
+.main-content a { color: #526ffc; border-bottom: .1px solid #526ffc; display: inline; padding: 0 0 .02em 0; }
+.main-content a:hover, .main-content p a:active { color: #f2f2f2 !important; background: #316eea; border: 0; }
 .main-content li { margin-left: 25px; }
-.main-content hr { border: 0; background: #e6e6e6; height: 1px; margin: 10px 0px; }
-.gameview { background: #FFF; vertical-align: middle; outline: 2px ridge red; margin: 2px; }
+.main-content hr { border: 0; background: #444; height: 1px; margin: 10px 0px; }
+.gameview { background: #000; vertical-align: middle; outline: 2px ridge red; margin: 2px; }
 .gameview:focus { outline: 2px ridge lime; }
 .gamebutton { margin: 5px; width: 80px; vertical-align: middle; }
 
@@ -107,7 +107,7 @@ a { text-decoration: none; transition: color 0.25s ease-in, background 0.25s eas
 -------------------------------------------------------------------------*/
 #tool
 {
-	background-color: #7d24e6;
+	background-color: #82dbff;
 	width: 800px;
 	margin: 0 auto;
 	padding: 0 8px 8px;
@@ -116,12 +116,12 @@ a { text-decoration: none; transition: color 0.25s ease-in, background 0.25s eas
 	box-shadow: 3px 3px 0 0 rgba(0,0,0,0.3);
 	font-size:80%;
 }
-#tool h2 { font-size: 14pt; font-family: sans-serif; text-align: center; background: #b7c4ff; color: #0a0a0a; margin: 10px 0; padding: 2px 0; }
+#tool h2 { font-size: 14pt; font-family: sans-serif; text-align: center; background: #3a748c; color: #FFF; margin: 10px 0; padding: 2px 0; }
 #tool div { clear: both; margin: 3px 0; }
 #tool label { float: left; width: 180px; margin-right: 10px; }
 #tool label.ta { float: none; width: auto; display: block; margin-right: 0; }
 #tool textarea { width: 100%; box-sizing: border-box; }
-#tool sub { display: block; color: #e6e6e6; font-size: 80%; }
+#tool sub { display: block; color: #666; font-size: 80%; }
 #tool sub.info { padding-left: 190px; margin-bottom: 5px; }
 #tool sub.wide { text-align: center; }
 #tool .submit { margin: 0 0 10px 0; padding: 3px 10px; font-size: 150%; }
