@@ -1,7 +1,7 @@
 #thelobangbanner {
     background-image: url("resources/thalobang-banner.png");
-    width: 100%;
-    height: 200px auto;
+    width: auto;
+    height: 200px;
     background-size: 100% auto;
     background-position: center;
     position: relative;
@@ -9,8 +9,8 @@
 #thelobangicon {
     background-image: url("resources/void-icon.png");
     background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,8 +18,8 @@
 }
 #voidbanner {
     background-image: url("resources/void-banner.jpg");
-    width: 100%;
-    height: 200px auto;
+    width: auto;
+    height: 200px;
     background-size: 100% auto;
     background-position: center;
     position: relative;
@@ -27,8 +27,8 @@
 #voidicon {
     background-image: url("resources/void-icon.png");
     background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
