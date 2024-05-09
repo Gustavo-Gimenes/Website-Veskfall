@@ -1,12 +1,16 @@
 #thelobang {
     background-image: url("resources/thalobang-banner.png");
+    height: 100px;
 }
 #thelobangicon {
     background-image: url("resources/void-icon.png");
+    width: 100px;
 }
 #void {
     background-image: url("resources/void-banner.png");
+    height: 100px;
 }
 #voidicon {
     background-image: url("resources/void-icon.png");
+    width: 100px;
 }
