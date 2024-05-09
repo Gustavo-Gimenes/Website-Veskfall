@@ -17,9 +17,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.25); /* Ajuste a opacidade aqui (0.5 é 50%) */
+    width: auto;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 #thelobangicon {
     background-image: url("resources/thelobang-icon.png");
@@ -46,15 +48,17 @@
     margin-top: -10px;
     margin-bottom: -10px;
 }
-#thelobangbanner::after {
+#voidbanner::after {
     content: "";
     display: block;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.25); /* Ajuste a opacidade aqui (0.5 é 50%) */
+    width: auto;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 #voidicon {
     background-image: url("resources/void-icon.png");
