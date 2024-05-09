@@ -1,5 +1,6 @@
 #thelobangbanner {
-    background-image: url("resources/thalobang-banner.png");
+    background-image: url("resources/thelobang-banner.png");
+    background-repeat: no-repeat;
     width: auto;
     height: 200px;
     background-size: 100% auto;
@@ -7,10 +8,12 @@
     position: relative;
 }
 #thelobangicon {
-    background-image: url("resources/void-icon.png");
+    background-image: url("resources/thelobang-icon.png");
     background-repeat: no-repeat;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
+    background-size: 100% auto;
+    background-position: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,6 +21,7 @@
 }
 #voidbanner {
     background-image: url("resources/void-banner.jpg");
+    background-repeat: no-repeat;
     width: auto;
     height: 200px;
     background-size: 100% auto;
@@ -27,21 +31,40 @@
 #voidicon {
     background-image: url("resources/void-icon.png");
     background-repeat: no-repeat;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
+    background-size: 100% auto;
+    background-position: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 #adbuttongroup {
+    width: auto;
+    height: 80px;
 }
 #adbuttonitchio {
     background-image: url("resources/ad-button-itchio.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    background-position: center;
 }
 #adbuttonsteam {
     background-image: url("resources/ad-button-steam.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    background-position: center;
 }
 #adbuttonplaystore {
     background-image: url("resources/ad-button-playstore.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    background-position: center;
 }
