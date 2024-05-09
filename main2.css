@@ -8,12 +8,24 @@
     position: relative;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+#thelobangbanner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25); /* Ajuste a opacidade aqui (0.5 é 50%) */
 }
 #thelobangicon {
     background-image: url("resources/thelobang-icon.png");
     background-repeat: no-repeat;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-size: 100% auto;
     background-position: center;
     position: absolute;
@@ -31,12 +43,24 @@
     position: relative;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+#thelobangbanner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25); /* Ajuste a opacidade aqui (0.5 é 50%) */
 }
 #voidicon {
     background-image: url("resources/void-icon.png");
     background-repeat: no-repeat;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-size: 100% auto;
     background-position: center;
     position: absolute;
@@ -79,8 +103,10 @@
     background-position: center;
 }
 @media (max-width: 850px) {
-	#thelobangbanner { height: 190px; margin-left: 10px; margin-right: 10px; }
-	#voidbanner { height: 190px; margin-left: 10px; margin-right: 10px; }
+	#thelobangbanner { height: 190px; margin-left: 10px; margin-right: 10px; margin-top: 0; margin-bottom: 0; }
+	#thelobangicon { width: 70px; height: 70px; }
+	#voidbanner { height: 190px; margin-left: 10px; margin-right: 10px; margin-top: 0; margin-bottom: 0; }
+	#voidicon { width: 70px; height: 70px; }
 	#adbuttongroup { height: 40px; margin-left: 10px; margin-right: 10px; }
 	#adbuttonitchio { height: 40px; }
 	#adbuttonsteam { height: 40px; }
